@@ -1,0 +1,17 @@
+.transparent-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border: 2px solid white; /* Border color */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.transparent-button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Change background on hover */
+    color: black; /* Change text color on hover */
+}
